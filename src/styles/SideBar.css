@@ -1,0 +1,79 @@
+.side-logo {
+  width: 30px;
+}
+
+.side-image {
+  width: 40px;
+  border-radius: 20px;
+}
+.side-nav {
+  height: 85%;
+  margin-left: 10px;
+  border-radius: 5px 20px;
+  width: 15rem;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  background-color: ghostwhite;
+  overflow-x: hidden;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+.side-list {
+  position: relative;
+  top: 20px;
+}
+button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+  background-color: ghostwhite;
+
+  height: 70px;
+  margin-left: 10px;
+  border-radius: 10px;
+  color: black;
+  width: 13rem;
+}
+button:focus {
+  outline: none;
+}
+
+.side-list li {
+  list-style: none;
+  padding-bottom: 20px;
+  font-family: "Pangolin", cursive;
+}
+
+.side-items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  position: relative;
+  right: 15%;
+  border-radius: 10px;
+  transition: 0.5s linear;
+}
+
+.side-items:hover {
+  background-color: gold;
+  transform: scale(1.1);
+}
+
+.side-text {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  left: 15px;
+}
+
+.side-info {
+  display: table-row-group;
+  font-family: "Reem Kufi", sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}

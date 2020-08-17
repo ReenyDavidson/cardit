@@ -1,0 +1,26 @@
+.nav-container {
+  display: flex;
+  background-color: white;
+}
+
+.nav-form-container {
+  margin: 15px auto;
+}
+h3 {
+  font-family: "Reem Kufi", sans-serif;
+}
+
+.nav-logo {
+  margin-left: 25px;
+}
+
+.nav-input {
+  width: 15rem;
+  height: 30px;
+  border: none;
+  border-radius: 7px;
+  background-color: gainsboro;
+}
+.nav-input:focus {
+  outline: none;
+}
